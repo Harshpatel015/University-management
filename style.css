@@ -1,0 +1,202 @@
+/********** Common CSS Starts **********/  
+* {
+    margin:0px;
+    padding:0px;
+}
+body, html {
+    font-family:Roboto, sans-serif, arial;
+    background:#f0f3fa; 
+}
+.m1 {
+    width:100%;
+    float:left;
+}
+
+.m2 {
+    width:33%;
+    float:left;
+}
+
+.container {
+    width:1500px;
+    margin:0 auto;
+}
+.plr {
+    padding-left:100px;
+    padding-right:100px;
+}
+.margin-top-50 {
+    margin-top:50px;
+}
+/********** Common CSS Ends **********/
+
+/********** Top Header Starts **********/  
+.top-header {
+    background:#2196f3;
+    padding:5px 0px;
+    border-bottom: 1px solid #3131315e;
+}
+.news-list {
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+.headquote {
+    font-size:18px;
+    color:#ffffff;
+    width:80%;
+}
+/********** Top Header Ends **********/
+
+/********** Latest News, Event, Notice Board Starts **********/  
+.latest-news{
+    margin-left:10px;
+    margin-right:10px;
+    background:#fff;
+    padding:20px;
+    height:350px;
+    margin-bottom:30px;
+}
+.event-list{
+    margin-left:10px;
+    margin-right:10px;
+    background:#fff;
+    padding:20px;
+    height:350px;
+    margin-bottom:30px;
+}
+.notice-board{
+    margin-left:10px;
+    margin-right:10px;
+    background:#fff;
+    padding:20px;
+    height:350px;
+    margin-bottom:30px;
+}
+.heading-sect{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+    border: 1px solid #cfcfcf;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color:white;
+}
+.heading-sect h3{
+    color:white;
+}
+.head-title {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family :'Roboto', sans-serif!important;
+    color: #2196f3;
+    padding-bottom: 5px;
+}
+.upcoming-event-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.upcoming-event-list{
+    padding:0px;
+   list-style:none;
+}
+.event-date {
+    background: #03a9f4;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size:14px;
+    color: #fff;
+    padding:8px;
+    margin-right: 10px;
+}
+.notice-board-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.notice-board-list{
+    padding:0px;
+    list-style:none;
+}
+/********** Latest News, Event, Notice Board Ends **********/
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height:70vh;
+    width:100vw;
+    background-image: linear-gradient(rgba(92, 106, 158, 0.7),rgba(7, 14, 40, 0.7)),url(PHOTO1/3u.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* logo */
+
+.pic{
+    width: auto;
+}
+.pic img{
+    width: 180px;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    position: relative;
+    /*mix-blend-mode: color-burn;*/
+    right: -680px;
+    top: 40px;
+}
+
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box p{
+    font-size: 30px;
+    margin: 10px 0 40px;
+}
+
+.link_box{
+    width: auto;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    left: 650px;
+}
+.box{
+    display: inline-block;
+    text-decoration: none;
+    color: #150101;
+    border: 1.5px solid #161616;
+    padding: 12px 34px;
+    font-size: 13px;
+    font-weight: 700;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.box:hover{
+    border: 1px solid #fb2929;
+    background-color: #f44336;
+    transition: 1s;
+}

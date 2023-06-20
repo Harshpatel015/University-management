@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  width: 80vw;
+  background-image: url(PHOTO1/back6.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+} 
+
+.header{
+height:100vh;
+width:100vw;
+background-image:url(emj/PHOTO1/back2.jpg.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+.header h1{
+position: absolute;
+margin-top: 1%;
+margin-left: 4%;
+}
+
+input[type="text"],
+textarea,
+input[type="number"],input[type="email"] {
+  width: 50%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="radio"] {
+  margin-top: 5px;
+}
+
+select {
+  width: 50%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  align-items: center;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.header{
+  width: 60vw;
+  /* border: 2px groove black; */
+
+}

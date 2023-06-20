@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admission Form</title>
+  <link rel="stylesheet" type="text/css" href="addmision.css">
+</head>
+<body>
+    <form action="newadd.php" method="post" target="_top">
+  <section class="header">
+  <h1 style="position: relative;float:right;text-decoration:overline;text-decoration:underline"> <b>University Admission Form </b></h1>
+  <form>
+    <label for="name"><b>Name:</b></label>
+    <input type="text" id="name" name="name" required><br>
+
+    <label for="parent_name"><b>Parent Name:</b></label>
+    <input type="text" id="parent_name" name="father" required><br>
+
+    <label for="name"><b>Phone Number:</b></label>
+    <input type="text" id="name" name="phone" pattern="[0-9]{10}" required><br>
+
+    <label for="name"><b>Email Id:</b></label>
+    <input type="email" id="name" name="email" required><br>
+
+    <label for="address"><b>Address:</b></label>
+    <textarea id="address" name="address" rows="4" required></textarea><br>
+
+    <label for="gender"><b>Gender:</b></label>
+    <input type="radio" id="male" name="gender" value="male" required>Male
+    <input type="radio" id="female" name="gender" value="female" required>Female<br>
+
+    <label for="course"><b>Course:</b></label>
+    <select id="course" name="course">
+      <option value="#">Select course</option>
+      <option value="B.tech">B.tech</option>
+      <option value="M.tech">M.tech</option>
+      <option value="B.Sc">B.Sc</option>
+      <option value="M.Sc">M.Sc</option>
+      <option value="B.Pharm">B.Pharm</option>
+      <option value="M.Pharm">M.Pharm</option>
+    </select><br>
+
+    <label for="hsc_percentage"><b>HSC Percentage:</b></label>
+    <input type="number" id="hsc_percentage" name="hsc" step="0.01" required><br>
+
+    <input type="submit" value="Submit" >
+  </form>
+  </section>
+  </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin-top: 5%;
+    border: 2px solid black;
+}
+
+.i_box{
+    display: inline;
+    margin-left: 3%;
+    margin-top: 5%;
+}

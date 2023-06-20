@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Admission</title>
+    <link rel="stylesheet" href="new_addmision.css">
+</head>
+<body>
+    <!-- <form action="newadd.php" method="post" target="_top"> -->
+        <section>
+            <div class="box">
+                <div class="i_box">
+                    <h2>Admission form</h2>
+                    Name:
+                    <input type="text" name="name" id="name"><br><br><br>
+                    Phone : <input type="tel" name="phone" id="phone" maxlength="10"><br><br>
+                    <div class="inbox">
+                        <input type="email" name="email" id="email">
+                        <label>Email </label>
+                    </div>
+                    course : <select name="course" id="courses" required>
+                        <option value="#">Select course</option>
+                        <option value="B.tech">B.tech</option>
+                        <option value="M.tech">M.tech</option>
+                        <option value="B.Sc">B.Sc</option>
+                        <option value="M.Sc">M.Sc</option>
+                        <option value="B.Pharm">B.Pharm</option>
+                        <option value="M.Pharm">M.Pharm</option>
+                    </select><br>
+                    hsc : <input type="text" name="hsc" id="hsc"><br>
+                    ssc: <input type="text" name="ssc" id="ssc"><br>
+                    address : <textarea name="address" id="address" cols="30" rows="12" placeholder="address"></textarea><br>
+                    fathername : <input type="text" name="father"><br>
+                    gender : <input type="radio" name="gender" value="Female">Female
+                            <input type="radio" name="gender" value="Male">Male
+                    <div class="extra"></div>
+
+                    <div class="sub">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="extra"></div>
+                    <p1>Do not have account :</p1><p2><a href="sign.html">Sign Up</a></p2>
+                </div>
+            </div>
+        </section>
+        </form>
+</body>
+</html>

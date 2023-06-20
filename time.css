@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  .result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .result img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 600px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .pass {
+    color: green;
+    font-weight: bold;
+  }
+  .fail {
+    color: red;
+    font-weight: bold;
+  }
+  .last{
+    width: 100%;
+}
+
+.number{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.number li a{
+    font-size: 30px;
+    font-weight: 500;
+}

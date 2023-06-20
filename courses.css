@@ -1,0 +1,260 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height:80vh;
+    width:100vw;
+    background-image: linear-gradient(rgba(109, 135, 198, 0.7),rgba(11, 18, 41, 0.7)),url(PHOTO1/course1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+}
+
+.links{
+    flex: 2;
+    text-align: right;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 13px 13px;
+    position: relative;
+}
+
+.links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+}
+
+.links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box p{
+    font-size: 32Px;
+    font-weight: 800;
+    margin-left: 43%;
+    display: flex;
+    margin-top: 2%;
+}
+
+.text-box-under{
+    width: 50%;
+    position: relative;
+    display: flex;
+    right: 10%;
+    margin-left: 36%;
+    box-shadow: 0 3px 10px #d36c6c;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.text-box-under p1{
+   /* font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f4fbcc;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: 300;
+    font-size: 20px; */
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #d36c6c;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.text-box-under:hover{
+    border: 1px solid #fb2929;
+    background-color: #544f4fd3;
+    transition: 1s;
+}
+
+/*.box{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.box:hover{
+    border: 1px solid #fb2929;
+    background-color: #f44336;
+    transition: 1s;
+}*/
+/* course */
+
+.course{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.course h1{
+    font-size: 39px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 37%;
+}
+
+.jus_con{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 3%;
+}
+
+
+/*---------course13------------*/
+.raw1{
+    flex-basis: 100%;
+    background: #fff3f3;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    transition: .3s;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.raw1 h3{
+    font-size: 23px;
+}
+
+.colum1{
+    flex-basis: 40%;
+    background: white;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .3s;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+.colum1 h3{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.colum1:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+}
+
+.jus_con{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 3%;
+}
+
+/*-------course24-----*/
+
+.raw2{
+    flex-basis: 100%;
+    background: rgb(187, 207, 239);
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    transition: .3s;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.raw2 h3{
+    font-size: 23px;
+}
+
+.colum2{
+    flex-basis: 40%;
+    background:white;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: .3s;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+.colum2 h3{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.colum2:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* ---last */
+
+.last{
+    width: 100%;
+}
+
+.number{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.number li a{
+    font-size: 30px;
+    font-weight: 500;
+}

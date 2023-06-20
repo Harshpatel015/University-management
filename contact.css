@@ -1,0 +1,169 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height: 80vh;
+    width:100vw;
+    background-image: linear-gradient(rgba(109, 135, 198, 0.7),rgba(11, 18, 41, 0.7)),url(PHOTO1/back4.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+}
+
+.links{
+    flex: 2;
+    text-align: right;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 13px 13px;
+    position: relative;
+}
+
+.links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+}
+
+.links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box p{
+    font-size: 32Px;
+    font-weight: 800;
+    margin: 10px 0 40px;
+}
+
+.text-box-under{
+    width: 50%;
+    position: relative;
+    display: flex;
+    right: 10%;
+    margin-left: 36%;
+    box-shadow: 0 3px 10px #d36c6c;
+    justify-content: center;
+}
+
+.text-box-under p1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #d36c6c;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.text-box-under:hover{
+    border: 1px solid #fb2929;
+    background-color: #544f4fd3;
+    transition: 1s;
+}
+
+/* ---- location */
+
+.location{
+    margin: auto;
+    width: 80%;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+
+/* contact */
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+
+.con-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.con-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+span{
+    margin: 1%;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.icons .fa{
+    color: #f44336;
+}
+
+/* last */
+
+.last{
+    width: 100%;
+}
+
+.number{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.number li a{
+    font-size: 30px;
+    font-weight: 500;
+}

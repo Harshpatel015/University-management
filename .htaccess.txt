@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^about$ about.php
+
+AddType application/x-httpd-php .htm .html

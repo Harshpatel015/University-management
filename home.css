@@ -1,0 +1,195 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    height:80vh;
+    width:100vw;
+    background-image: linear-gradient(rgba(74, 127, 218, 0.7),rgba(0, 0, 0, 0.7)),url(PHOTO1/starting6.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    mix-blend-mode: color-burn;
+}
+
+.links{
+    flex: 2;
+    text-align: right;
+}
+
+.links ul li{
+    display: inline-block;
+    padding: 13px 13px;
+    position: relative;
+}
+
+.links ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+}
+
+.links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 33px;
+}
+
+.text-box p{
+    font-size: 30px;
+    margin: 10px 0 40px;
+}
+.text-box p1{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke
+}
+
+/********** Recruiter List Starts **********/  
+
+.company{
+    width:100%;
+    float:left;
+}
+
+.com_5 {
+    margin-top:50px;
+}
+
+.container {
+    width:1500px;
+    margin:0 auto;
+}
+.recruiter-head-style{
+    font-size: 28px;
+    color: #4b4848;
+    margin-bottom: 5px;
+}
+.recruiter-marquee{
+    height: 100px;
+}
+.recruiter-marquee img{
+    height:100px;
+    width:200px;
+}
+/********** Recruiter List Ends **********/
+
+/*--- Impeccable Placements ---*/
+.plac{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.plac h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 5%;
+}
+.placement-box {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: 40%;
+  }
+  
+  .student-info {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .student-info h2 {
+    margin-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .student-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 20px;
+  }
+  
+  .company-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-info h3 {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  
+  .company-info img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* last */
+
+.last{
+    width: 100%;
+}
+
+.number{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.number li a{
+    font-size: 30px;
+    font-weight: 500;
+}
